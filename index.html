@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Суратгирхонаи Диловар</title>
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#0b0b0b;
+  color:white;
+}
+
+header{
+  padding:20px;
+  text-align:center;
+  background:#111;
+}
+
+.logo{
+  font-size:30px;
+  font-weight:bold;
+  color:#d4af37;
+}
+
+.hero{
+  min-height:500px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:40px 20px;
+  background:linear-gradient(135deg,#111,#292929);
+}
+
+.hero h1{
+  font-size:42px;
+  margin-bottom:15px;
+}
+
+.hero p{
+  font-size:20px;
+  color:#ddd;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:15px 30px;
+  background:#d4af37;
+  color:#111;
+  text-decoration:none;
+  border-radius:30px;
+  font-weight:bold;
+}
+
+.services{
+  padding:50px 20px;
+  text-align:center;
+}
+
+.services h2{
+  color:#d4af37;
+  font-size:32px;
+}
+
+.cards{
+  max-width:900px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:#191919;
+  padding:30px 15px;
+  border-radius:15px;
+}
+
+.card h3{
+  color:#d4af37;
+}
+
+.contact{
+  background:#151515;
+  text-align:center;
+  padding:50px 20px;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  color:#999;
+}
+
+@media(max-width:600px){
+  .hero h1{
+    font-size:32px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">DILOVAR PHOTO</div>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Суратгирхонаи Диловар</h1>
+
+    <p>
+      Лаҳза мегузарад, акс мемонад.
+    </p>
+
+    <a class="btn" href="#services">
+      Хизматрасониҳо
+    </a>
+  </div>
+</section>
+
+<section class="services" id="services">
+
+<h2>Хизматрасониҳои мо</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>📸 Суратгирӣ</h3>
+<p>Аксҳои босифат дар суратгирхона.</p>
+</div>
+
+<div class="card">
+<h3>👨‍👩‍👧 Суратҳои оилавӣ</h3>
+<p>Лаҳзаҳои хотирмони оилаатонро нигоҳ медорем.</p>
+</div>
+
+<div class="card">
+<h3>🪪 Сурати 3×4</h3>
+<p>Сурат барои ҳуҷҷатҳо.</p>
+</div>
+
+<div class="card">
+<h3>🎁 Тӯҳфаҳои хотиравӣ</h3>
+<p>Сурат дар кружка, болишт ва дигар тӯҳфаҳо.</p>
+</div>
+
+</div>
+</section>
+
+<section class="contact">
+
+<h2>Суратгирхонаи Диловар</h2>
+
+<p>Барои фармоиш бо мо тамос гиред.</p>
+
+<a class="btn" href="#">
+Тамос бо мо
+</a>
+
+</section>
+
+<footer>
+© 2026 Суратгирхонаи Диловар
+</footer>
+
+</body>
+</html>
