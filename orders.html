@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Фармоишҳо | Суратгирхонаи Диловар</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f5f5f5;
+  color:#111;
+}
+
+.header{
+  background:white;
+  padding:25px 20px;
+  border-bottom:1px solid #ddd;
+}
+
+.header h1{
+  margin:0;
+  font-size:28px;
+}
+
+.orange{color:#ff4b00}
+
+.container{
+  padding:20px;
+  max-width:600px;
+  margin:auto;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:18px;
+  box-shadow:0 3px 15px #ddd;
+}
+
+label{
+  display:block;
+  margin-top:15px;
+  margin-bottom:7px;
+  font-weight:bold;
+}
+
+input,textarea,select{
+  width:100%;
+  padding:14px;
+  border:1px solid #ccc;
+  border-radius:12px;
+  font-size:16px;
+}
+
+textarea{
+  min-height:100px;
+}
+
+button{
+  width:100%;
+  margin-top:20px;
+  padding:15px;
+  border:0;
+  border-radius:25px;
+  background:#ff4b00;
+  color:white;
+  font-size:18px;
+  font-weight:bold;
+}
+
+.back{
+  display:block;
+  text-align:center;
+  margin-top:20px;
+  color:#ff4b00;
+  text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Фармоишҳои <span class="orange">Диловар</span></h1>
+</div>
+
+<div class="container">
+
+<div class="card">
+
+<h2>🛒 Фармоиш диҳед</h2>
+
+<label>Номи шумо</label>
+<input type="text" placeholder="Номи худро нависед">
+
+<label>Рақами телефон</label>
+<input type="tel" placeholder="+992">
+
+<label>Хизматрасонӣ</label>
+<select>
+<option>Сурат 3×4</option>
+<option>Портрет</option>
+<option>Аксбардории оилавӣ</option>
+<option>Бакал бо сурат</option>
+<option>Болишт бо сурат</option>
+<option>Рамка бо сурат</option>
+</select>
+
+<label>💬 Паём</label>
+<textarea placeholder="Фармоиши худро нависед..."></textarea>
+
+<label>📷 Сурат фиристед</label>
+<input type="file" accept="image/*">
+
+<button type="button">Фиристодани фармоиш</button>
+
+</div>
+
+<a class="back" href="index.html">← Бозгашт ба асосӣ</a>
+
+</div>
+
+</body>
+</html>
