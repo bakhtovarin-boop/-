@@ -49,12 +49,23 @@ button{
   <h2>Суратгирхонаи Диловар</h2>
   <p>Воридшавӣ</p>
 
-  <input type="text" placeholder="Логин">
-  <input type="password" placeholder="Парол">
+<input type="text" id="username" placeholder="Логин">
+ <input type="password" id="password" placeholder="Парол">
 
   <br>
-  <button>Ворид шудан</button>
+  <button onclick="login()">Ворид шудан</button>
 </div>
+<script>
+function login() {
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
 
+  if (username === "dilovar" && password === "1234") {
+    window.location.href = "index.html";
+  } else {
+    alert("Логин ё парол нодуруст аст!");
+  }
+}
+</script>
 </body>
 </html>
